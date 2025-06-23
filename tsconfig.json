@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "target": "ES6", // Good browser compatibility
+    "lib": ["DOM", "ES6"], // Include browser + ES6 APIs
+    "module": "ESNext", // We're not bundling, just outputting script files
+    "strict": true, // Enable all strict type checking
+    "esModuleInterop": true, // For compatibility with ES modules
+    "outDir": "./dist", // Where compiled JS will go
+    "rootDir": "./src", // Where your TS source lives
+    "forceConsistentCasingInFileNames": true,
+    "skipLibCheck": true
+  },
+  "include": ["src/**/*"]
+}
