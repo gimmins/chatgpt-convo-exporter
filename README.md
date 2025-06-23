@@ -24,9 +24,6 @@ This tool:
 3. Paste the compiled JavaScript code (see build instructions below) and run it.
 4. The tool will collect messages and trigger a download of the `.txt` file.
 
-👉 **Option 2: (Coming Soon)**  
-📌 Userscript / browser extension version (if you decide to package it)
-
 ---
 
 ## 🛠 How to build (TypeScript)
