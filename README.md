@@ -31,34 +31,47 @@ This tool:
 
 ## 🛠 How to build (TypeScript)
 
-1️⃣ Clone this repository:
+### 1️⃣ Clone this repository:
 
 ```bash
 git clone https://github.com/YOUR_USERNAME/chatgpt-convo-exporter.git
 cd chatgpt-convo-exporter
+```
 
-2️⃣ Install dependencies:
+### 2️⃣ Install dependencies:
+
+```
 npm install
+```
 
-3️⃣ Compile the TypeScript:
+### 3️⃣ Compile the TypeScript:
+
+```
 npm run build
+```
+
 ✅ The compiled JavaScript will appear in the dist/ (or your configured output) folder.
 
-4️⃣ Open the generated JavaScript file, copy its contents, and paste it into your browser console to use.
+### 4️⃣ Open the generated JavaScript file, copy its contents, and paste it into your browser console to use.
 
-📦 Example build command (in package.json)
+### 📦 Example build command (in package.json)
+
+```
 "scripts": {
   "build": "tsc"
 }
+```
 
-📝 Notes
-	•	This is an early version — works with the current ChatGPT DOM structure as of June 2025.
-	•	If OpenAI updates their interface, the selectors may need to be updated.
-	•	Feedback, contributions, and improvements are welcome!
+## 📝 Notes
 
-💡 Why I built this
+- This is an early version — works with the current ChatGPT DOM structure as of June 2025.
+- If OpenAI updates their interface, the selectors may need to be updated.
+- Feedback, contributions, and improvements are welcome!
+
+## 💡 Why I built this
+
 I often found it frustrating to save long ChatGPT conversations, especially when the UI made copying tricky. This tool solves that pain point for myself and others who want to archive or review their AI interactions.
 
-📄 License
+## 📄 License
+
 MIT — free to use, modify, and share.
-```
